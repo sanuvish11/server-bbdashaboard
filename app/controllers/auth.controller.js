@@ -19,6 +19,7 @@ const { chat, state } = require("../models");
 const fs = require('fs');
 const cheerio = require('cheerio');
 const got = require('got');
+console.log(got);
 
 // Save User to Database
 exports.signup = (req, res) => {
