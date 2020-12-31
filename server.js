@@ -104,5 +104,5 @@ const Role = db.role;
 db.sequelize.sync();
 require('./app/routes/auth.routes')(app);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 http.listen(PORT, function() {});
